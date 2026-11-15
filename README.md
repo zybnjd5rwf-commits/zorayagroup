@@ -1,19 +1,33 @@
 # ZORAYA Group website
 
-Static HTML website for Cloudflare Pages.
+Static HTML website for Cloudflare Pages. No build command is required.
 
-Cloudflare Pages settings:
-- Framework preset: None
+## Pages
+
+- `index.html` — Home
+- `about.html` — About ZORAYA Group
+- `services.html` — Furniture sourcing, custom furniture and project coordination
+- `completed-projects.html` — Selected project experience
+- `industries.html` — Sectors served
+- `contact.html` — Enquiries and contact links
+
+## Cloudflare Pages
+
+- Project: `zorayagroup-site`
+- Production branch: `main`
+- Review branch: `website-restoration-preview`
 - Build command: leave blank
-- Build output directory: /
-- Root directory: /
+- Build output directory: `.`
+- Root directory: `/`
 
-The site uses root-level HTML pages and does not require a build step.
+The review branch is intended for preview only. Do not merge it into production until the preview has been explicitly approved.
 
-Pages:
-- index.html — main company website
-- completed-projects.html — selected project experience
+## Positioning
 
-Contact: Ben@zorayagroup.com | +852 5575 4850
+Approved tagline: **Your Partner for Complete Furniture Project Solutions.**
 
-Media follow-up: the original November 8 archive contains project images and a Dubai Hills MP4. Add the archive's images directory to this repository to restore project photography and video.
+ZORAYA Group is the client-facing project solutions and furniture supply coordinator. Independent specialist providers, including MD Interior Design & Trading, remain separate businesses and are engaged only under separately agreed project scopes. MD is not owned by or part of ZORAYA Group.
+
+## Contact
+
+Ben@zorayagroup.com · +852 5575 4850
