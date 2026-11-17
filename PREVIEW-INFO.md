@@ -62,7 +62,7 @@ This is a content and navigation preview, not a production-ready release. The br
 - Added the recovered Dubai Hills 2025 project-video still to the project gallery. The visible “Blanc” watermark is preserved and disclosed; the full video remains archived but is not yet embedded.
 - Palm Jumeirah Villa (ZORAYA project) and Palm Jumeirah Majlis (joint project) remain correctly attributed. Their cards now clearly state that project photography is still to be added.
 - Added a working telephone link on the Contact page and a canonical URL to the hotel transformation article.
-- Removed the partially applied Google Tag Manager snippet from this preview branch only. This prevents staging visits from being recorded in the live GA4 property. The production branch and production tracking remain untouched.
+- Removed all Google Tag Manager and direct GA4 scripts from this preview branch only. This prevents staging visits from being recorded in the live GA4 property. The production branch and production tracking remain untouched.
 - Added the approved artwork favicon reference consistently across all twelve HTML pages.
 
 ## Current verification
