@@ -68,3 +68,17 @@ This is a content and navigation preview, not a production-ready release. The br
 ## Current verification
 
 Static source checks confirm all twelve pages have titles, descriptions, viewport metadata, preview-only noindex directives, mobile media queries, and image alt text where images are used. WhatsApp and email links are present; the Contact page now also has a `tel:` link. Live browser rendering, actual mobile-device layout, and HTTP-to-HTTPS/redirect behavior could not be independently verified because the preview host is not accessible to the current browser inspection service. Third-party imagery in the hotel transformation article still requires a rights review before production release.
+
+
+## Production HTTPS and redirect audit — read only
+
+Checked the live `zorayagroup.com` zone and Pages project without changing settings:
+
+- Both `zorayagroup.com` and `www.zorayagroup.com` are attached to the production Pages project.
+- SSL mode is `Full`; TLS 1.3 is enabled; Automatic HTTPS Rewrites is enabled.
+- `Always Use HTTPS` is currently **off**.
+- The minimum TLS version is currently `1.0`.
+- No Cloudflare redirect Rulesets or legacy Page Rules were found for this zone.
+- No DNS, SSL, security, redirect, or production deployment settings were changed. The canonical URLs in the site currently prefer `www.zorayagroup.com`.
+
+These live settings require explicit approval before any changes are made. The preview remains on the separate Cloudflare Pages preview hostname.
