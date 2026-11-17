@@ -9,38 +9,47 @@ This branch is the review build for the ZORAYA Group website restoration.
 
 ## Production protection
 
-No production files, DNS records, SSL/TLS settings, security settings, redirect rules, or Cloudflare production configuration were changed during this restoration pass. Cloudflare currently reports production deployments enabled for the `main` branch; that setting remains unchanged. Only commits to this preview branch are intended to trigger preview deployments.
+No production files, DNS records, SSL/TLS settings, security settings, redirect rules, or Cloudflare production configuration were changed. Only this preview branch is being updated. Do not merge or publish without Ben's separate approval.
 
 ## Preview-only indexing protection
 
-All six HTML pages carry `noindex,nofollow`, and this branch's `robots.txt` disallows crawling. Remove these preview-only controls before any approved production release.
+All HTML pages use `noindex,nofollow`; this branch's `robots.txt` disallows crawling. These protections must be reviewed before any approved production release.
 
-## Current site scope
+## Pages in this preview
 
-The branch contains Home, About, Services, Completed Projects, Industries, and Contact pages. The existing copy describes furniture sourcing and supply, custom furniture, manufacturing coordination, quality inspection, export/container coordination, project coordination, and installation arrangements. MD Interior Design & Trading is described as an independent specialist provider, not as a company owned by or part of ZORAYA.
+- Home
+- About
+- Services
+- Industries
+- Hotels
+- Palaces
+- Villas
+- Apartment Projects
+- Office Projects
+- Selected Projects
+- Hotel Transformation insight
+- Contact
 
-## Restoration items still outstanding
+The homepage links to the five sector pages. The sitemap includes all twelve HTML pages.
 
-- Integrate the exact user-supplied ZORAYA logo artwork from the Library. Do not use generated logo variants or approximate/recreate the mark. The current branch logo WebP does not decode correctly.
-- Restore the original project image/video assets from the recovered archive and retain source attribution. The Dubai Hills source video contains a visible “Blanc” watermark; preserve it. The Palm Jumeirah Villa & Majlis project remains labelled as a joint project, and the recovered archive contains no dedicated image for it.
-- Complete visual checks of the preview deployment at desktop and mobile sizes, including logo/favicon rendering, contact links, HTTPS, and redirects.
+## Brand and project assets
 
-The production site remains live and untouched pending explicit approval of the preview.
+- The exact user-supplied full ZORAYA logo artwork has been recovered from the Library and restored as `images/zoraya-logo.webp`. It has been resized and compressed for the header without changing the artwork.
+- The Luxury Palace project photograph from the user-supplied archive is available as `images/luxury-palace-dubai-2026.webp` and is shown on the selected-projects page.
+- Dubai Hills Project | Dubai, UAE — 2025 is a joint project. Its recovered source video carries a visible “Blanc” watermark; preserve it if the video is integrated.
+- Luxury Palace Project | Dubai, UAE — 2026 is a joint project.
+- Palm Jumeirah Villa | Dubai, UAE — 2026 is ZORAYA's own project.
+- Palm Jumeirah Majlis | Dubai, UAE — 2026 is a joint project.
+- No unrelated stock or generated imagery is presented as completed ZORAYA project work.
 
+## Remaining before production release
 
-## Asset inventory and attribution — 15 November 2026
+1. Replace or clear the third-party hotel transformation photographs. Their usage rights have not been confirmed. The intended visual direction remains a visibly neglected, dated “before” room contrasted with a refined contemporary “after” room. Use user-supplied, licensed, or commissioned visuals only.
+2. Restore the Dubai Hills source video and poster from the recovered archive, preserving the visible “Blanc” watermark. The source video is not yet integrated into the website.
+3. Restore approved photographs for Palm Jumeirah Villa and Palm Jumeirah Majlis when available. Do not substitute unrelated stock or generated images.
+4. Review all pages at desktop and mobile sizes, including logo rendering, favicon, contact links, image loading, HTTPS, redirects and navigation.
+5. Check the hotel article's technical and regulatory wording with the project's appointed consultants before using it as a compliance claim. The article correctly states that 60-minute fire-rated doors are not automatically required at every door.
 
-- **Approved ZORAYA logo:** the exact user-supplied Library file is `image(3).png` (1536 × 1024, RGBA, 3,025,511 bytes; SHA-256 `fb1a26cf5a3d427f589544e468fb0c8924c187bcbd1b0d60b7c2be27cade18c8`). Keep this original artwork unchanged for the header and favicon. The current `images/zoraya-logo.webp` / `favicon.webp` asset is invalid. Do not use `favicon.png`: it is a separate Z-only mark, not the approved full logo.
-- **Luxury Palace Project | Dubai, UAE — 2026:** the original user-supplied project image is in the Library as `zoraya group palace photo (1).jpg`. The recovered ZIP also contains the lower-resolution WebP derivative `images/luxury-palace-dubai-2026.webp`. Use one image only and describe it as a project visual; no photographer credit has been supplied.
-- **Dubai Hills Project | Dubai, UAE — 2025:** the recovered ZIP contains `images/dubai-hills-project-2025.mp4` (40.029 seconds, 720 × 1280, H.264/AAC) and `images/dubai-hills-2025-poster.jpg` (720 × 1280). The poster and source footage carry a visible “Blanc” watermark; preserve it and do not crop, cover or remove it. Neither asset is currently in the preview branch.
-- **Dubai Palm Jumeirah — Luxury Majlis Project — 2026:** this remains a joint project with a strategic partner. The recovered ZIP contains no dedicated image for it; do not substitute unrelated stock or generated imagery.
-- The archive's `candidate12/15/20/25.webp` and `test28/35/45.webp` files are repeated versions of the same palace interior. Do not use them as separate project photographs.
+## Current status
 
-## Static review — 15 November 2026
-
-- The recovered ZIP contains two HTML pages; the preview branch expands the site to six pages: Home, About, Services, Completed Projects, Industries and Contact.
-- All six preview pages have a title and meta description. A static link check found no missing internal page links, and each page includes responsive CSS breakpoints.
-- Contact links are present for `Ben@zorayagroup.com` and WhatsApp `https://wa.me/85255754850`.
-- Preview-only `noindex,nofollow` metadata and the disallow-all `robots.txt` remain in place. Do not remove them until an approved production release.
-- Desktop/mobile rendering, live contact-link behaviour, HTTPS redirects and browser-level favicon/logo rendering have **not** been verified in this run.
-- The preview branch is diverged from `main`; do not merge it wholesale. Review and port only necessary changes after comparing their intent.
+This is a content and navigation preview, not a production-ready release. The branch has not been published to the live site. Browser-level visual QA and Cloudflare preview deployment checks remain outstanding.
