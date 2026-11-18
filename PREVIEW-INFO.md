@@ -95,3 +95,18 @@ These live settings require explicit approval before any changes are made. The p
 - Removed the third-party hotel photographs from the Hotel Transformation article and replaced them with clear placeholders for approved project photography or rights-cleared commissioned images.
 - Static source review confirms common navigation, favicon references, page titles/descriptions/canonicals, preview noindex directives, contact-link formats and no external image URLs remaining in the Hotel Transformation article.
 - Browser-level mobile rendering and live HTTPS/redirect behaviour remain unverified in this environment because external DNS resolution and preview-host access are unavailable. No production settings or files were changed.
+
+
+## Restoration QA — 18 November 2026 (latest pass)
+
+- Current preview branch head before this update: `e86fa61a19870360adaa48e9f9abfefc1ce54678`; latest successful Cloudflare preview deployment: `9ece9d7e-6510-487a-8542-c2031a3063c5`, built from that head.
+- Static source audit covered all 12 HTML pages. Each has a page title, meta description, canonical URL, viewport metadata, preview-only `noindex,nofollow`, one H1, and descriptive alt text for each inline image.
+- All 12 pages use the same primary navigation. Local file references, in-page/cross-page anchors and duplicate IDs were checked; no broken local references, missing anchors or duplicate IDs were found.
+- Contact targets are present in source: email and WhatsApp links on the relevant pages, plus a `tel:+85255754850` link on Contact. The targets were syntax-checked; actual browser click-through remains unverified.
+- Services content covers furniture sourcing and supply, custom furniture, manufacturing coordination, quality inspection, export/container coordination, 3D design and visualisation via independent specialist providers, project coordination, installation arrangements and door-to-door delivery. Customs, installation and site services remain subject to the written project scope.
+- Project attribution remains explicit: Luxury Palace and Dubai Hills are joint projects; Palm Jumeirah Villa is a ZORAYA project; Palm Jumeirah Majlis is a joint project. Two real project visuals are currently available. Villa and Majlis cards remain clearly marked for photography rather than using unrelated imagery. The Blanc watermark on the Dubai Hills still is preserved.
+- The exact user-supplied full logo remains available in the Library as `Zoraya Group Luxury Marble Logo(1).png` (1536 × 1024). The header uses the proportional web-delivery copy at `images/zoraya-logo.webp`; the source artwork is untouched. The square Z emblem is used for the favicon.
+- The requested ZIP path `/mnt/data/files/Zoraya-Group-Website-Updated.zip` is not present in this runtime and no ZIP was found in the Library listing. The earlier archive inspection notes above remain historical; the archive could not be independently re-opened in this pass.
+- Browser-level rendering and HTTP/HTTPS redirect checks remain unverified. Cloudflare Browser Rendering reported a network/DNS connection failure for the preview host, and this runtime could not resolve the preview or raw GitHub hosts. Cloudflare confirms the preview deployment itself completed successfully.
+- The preview branch and `main` are divergent: preview is 113 commits ahead and 31 behind main. No merge or rebase was performed; the preview-only changes remain isolated.
+- No production files, deployment, DNS, SSL/TLS, security, redirect settings or public profiles were changed.
