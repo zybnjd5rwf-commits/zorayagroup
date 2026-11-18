@@ -110,3 +110,17 @@ These live settings require explicit approval before any changes are made. The p
 - Browser-level rendering and HTTP/HTTPS redirect checks remain unverified. Cloudflare Browser Rendering reported a network/DNS connection failure for the preview host, and this runtime could not resolve the preview or raw GitHub hosts. Cloudflare confirms the preview deployment itself completed successfully.
 - The preview branch and `main` are divergent: preview is 113 commits ahead and 31 behind main. No merge or rebase was performed; the preview-only changes remain isolated.
 - No production files, deployment, DNS, SSL/TLS, security, redirect settings or public profiles were changed.
+
+
+## Follow-up QA — 18 November 2026
+
+- Preview branch head at the start of this follow-up: `fa456cec19866a48f1770a8b74fcad475a1b106c`. Cloudflare's latest successful preview deployment at that point was `5f458347-b5a9-4a1e-b08a-1d0ea231d49d`, built from the same commit.
+- Homepage copy now explicitly includes 3D visualisation through independent specialist providers. The design-planning step clarifies that 3D concepts and visual presentations are coordinated through independent specialists where requested.
+- Industries now lists Retail & Showrooms as an industry. The previous generic “Specialist packages” tile was removed from the industry list.
+- The completed-projects page metadata now says “project experience involving ZORAYA GROUP” and explicitly identifies ZORAYA projects and joint collaborations, avoiding any suggestion that every displayed project is solely owned by ZORAYA.
+- Preview access is protected by the existing Cloudflare Access application “zorayagroup-site - Cloudflare Pages” for `*.zorayagroup-site.pages.dev`. Its current allow policy lists `ben.dsg@icloud.com`. A direct request to the latest deployment URL returned the Cloudflare Access sign-in page rather than the website. This is why unauthenticated desktop/mobile visual QA and browser click-through could not be completed. No Access policy was changed.
+- Current read-only Cloudflare zone settings for `zorayagroup.com`: Always Use HTTPS = On; Automatic HTTPS Rewrites = On; SSL mode = Full (certificate status active); minimum TLS version = 1.2. The Always Use HTTPS setting reports a modification timestamp of `2026-11-18T02:38:12Z`; these settings were not changed by this restoration work.
+- No custom redirect ruleset or legacy Page Rule was found. The apex HTTPS URL returned ZORAYA page HTML whose canonical URL points to `https://www.zorayagroup.com/`. The actual HTTP redirect status and apex-to-www redirect behaviour remain unverified; the crawler received a 403 and the browser-rendering content endpoint did not expose response headers.
+- The current GitHub comparison shows preview `115` commits ahead and `31` commits behind `main`. The branches remain intentionally unmerged.
+- The recovered ZIP at `/mnt/data/files/Zoraya-Group-Website-Updated.zip` remains unavailable in this runtime and was not found in the Library. The exact full logo source remains available in the Library and untouched; the site uses the matching web-delivery copy. Only the verified Luxury Palace and Dubai Hills project visuals are present; Villa and Majlis photos are still outstanding.
+- No production branch, production deployment, DNS, SSL/TLS, Access, security, redirect settings or public company/social profiles were changed by this work.
