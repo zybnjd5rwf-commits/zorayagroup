@@ -142,3 +142,12 @@ These live settings require explicit approval before any changes are made. The p
 - Browser-level rendering, actual mobile-device testing, live WhatsApp/email/telephone click-through and HTTP/HTTPS redirect checks remain unverified. The preview hostname is protected by the existing Cloudflare Access application for `*.zorayagroup-site.pages.dev`, with `ben.dsg@icloud.com` on its allow-list; the browser inspection service and this runtime cannot complete that authenticated session. Responsive CSS is present, but this is not a substitute for visual device testing.
 - Open Graph and Twitter image metadata are inconsistent: only some pages currently define `og:image` and `twitter:image`. A properly sized, approved share image should be prepared before production release; no stock or illustrative image has been presented as completed ZORAYA work to solve this.
 - No production branch, production deployment, DNS, SSL/TLS, Access, security, redirect settings, or public company/social profiles were changed.
+
+
+## Restoration update — 20 November 2026
+
+- Replaced the homepage hero's third-party illustrative stock interior with the verified Luxury Palace Project image already used on the Selected Projects page. The caption identifies Dubai, 2026 and the project's joint status.
+- Added the Library reference image associated with the Palm Jumeirah Majlis as `images/palm-jumeirah-majlis-visualisation.webp`. The card labels it as a 3D visualisation reference, not a completed-site photograph; the project remains attributed as a joint project and completed-site photography is still pending.
+- The exact requested website archive `/mnt/data/files/Zoraya-Group-Website-Updated.zip` is not present in this runtime, and an exact-name Dropbox search returned no result. A separate Library archive, `ZORAYA_Palace_Website_Images_4(1).zip`, was inspected and contains four palace interior JPEGs. These are treated as visualisation assets, not verified completed-site photographs.
+- The Library image `zoraya group villa .png` was inspected, but prior user context does not explicitly link that specific file to the Palm Jumeirah Villa project or confirm publication suitability; it has not been assigned to that project.
+- The exact approved full logo remains available in the Library as `Zoraya Group Luxury Marble Logo(1).png`. The original PNG remains untouched; the existing preview continues to use its established web-delivery copy.
