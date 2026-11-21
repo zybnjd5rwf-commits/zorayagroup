@@ -164,3 +164,8 @@ These live settings require explicit approval before any changes are made. The p
 - Current GitHub comparison: `website-restoration-preview` is 135 commits ahead and 40 behind `main`. The branches remain divergent; no merge or rebase was performed.
 - Cloudflare Pages read-only configuration confirms production branch `main` and preview deployments restricted to `website-restoration-preview`. At the start of this QA pass, the latest successful preview deployment was `a49798b9-df3c-496f-9f61-fdb7d6f088dc` (20 November 2026), and the latest production deployment observed was `802c4c8a-4c61-46f5-9540-7001133a1cca` (19 November 2026). No production branch, deployment, DNS, SSL/TLS, Access, security or redirect settings were changed.
 - Cloudflare Access continues to protect the preview hostname. Static source checks are possible, but authenticated live browser rendering and click-through of navigation, WhatsApp, email and telephone links remain unverified in this environment.
+
+
+## Social metadata correction — 21 November 2026
+
+- A follow-up static audit caught double-escaped ampersands in the Open Graph and X/Twitter titles/descriptions on the Hotels, Palaces, Villas and Office sector pages. Corrected the metadata so the decoded social text matches each page's actual title and meta description. No page copy or production files were changed.
