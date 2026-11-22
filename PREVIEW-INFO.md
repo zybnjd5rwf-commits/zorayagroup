@@ -177,3 +177,10 @@ These live settings require explicit approval before any changes are made. The p
 - All twelve HTML pages previously referenced `/favicon.png`, which displays only the standalone Z mark. The preview is being updated to use the same full-logo WebP as the page header and social metadata, avoiding a separate cropped mark.
 - The original PNG and the existing delivery artwork were not edited. The unused legacy favicon files remain in the repository but will no longer be referenced by the HTML pages.
 - Changes are restricted to `website-restoration-preview`; production, DNS, SSL/TLS, security, redirects and public profiles were not changed.
+
+
+## 3D visualisation showcase — 22 November 2026
+
+- Added a visual showcase to `services.html` using the existing `images/palm-jumeirah-majlis-visualisation.webp` asset.
+- The image is explicitly labelled as a 3D visualisation reference for a joint project, not completed-site photography. Supporting copy states that 3D presentation work is coordinated through independent specialist providers and that final specifications remain subject to approval.
+- Added responsive two-column desktop / single-column mobile styling for the showcase. No new project ownership claims or image assets were introduced.
