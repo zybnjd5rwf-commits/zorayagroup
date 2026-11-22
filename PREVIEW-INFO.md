@@ -199,3 +199,9 @@ These live settings require explicit approval before any changes are made. The p
 - Added the user-supplied Palm Jumeirah Villa exterior image from the Library as `images/palm-jumeirah-villa-2026.webp` (480 × 321 WebP delivery copy (7.9 KB)). The original PNG remains unchanged.
 - Updated the Palm Jumeirah Villa project card to show the supplied exterior image and removed the missing-photography placeholder.
 - Applied a shared cover-image treatment to the project-card media so the existing Palm Jumeirah Majlis 3D visualisation fills its frame cleanly; its caption continues to identify it as a visualisation reference, not completed-site photography.
+
+
+## Palace imagery attribution — 22 November 2026
+
+- Reviewed the Palace website-image archive. The interior imagery has the appearance of design visualisations rather than confirmed completed-site photographs.
+- The Luxury Palace project remains attributed as a joint project, but its gallery image is now explicitly labelled as an interior visualisation reference. Completed-site photography is still required before presenting that image as a finished-project photograph.
