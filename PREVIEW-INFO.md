@@ -188,8 +188,8 @@ These live settings require explicit approval before any changes are made. The p
 
 ## Restoration QA — 22 November 2026
 
-- Corrected the favicon reference across all twelve HTML pages to use the dedicated 64 × 64 Z emblem at `/favicon.png`. The full approved ZORAYA wordmark remains the header logo at `/images/zoraya-logo.webp`; the original Library artwork is unchanged.
-- Confirmed the repository's `favicon.png` is a 64 × 64 PNG. Using the dedicated icon avoids shrinking the full wordmark into a browser-tab icon.
+- All twelve pages reference the full approved ZORAYA logo artwork at `/images/zoraya-logo.webp` in both the header and favicon metadata; the original approved PNG in the Library remains untouched.
+- The separate 64 × 64 Z-only icon is not used in page metadata because it is a cropped mark. The preview retains the full approved wordmark rather than substituting a cropped or recreated variant.
 - The requested `/mnt/data/files/Zoraya-Group-Website-Updated.zip` is not present in this runtime. The Library ZIP inventory contains only the Palace website-image archives, not the requested website archive.
 - Authenticated browser-level visual QA and original Villa/Majlis project media integration remain outstanding.
 
