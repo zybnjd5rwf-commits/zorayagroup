@@ -169,3 +169,11 @@ These live settings require explicit approval before any changes are made. The p
 ## Social metadata correction — 21 November 2026
 
 - A follow-up static audit caught double-escaped ampersands in the Open Graph and X/Twitter titles/descriptions on the Hotels, Palaces, Villas and Office sector pages. Corrected the metadata so the decoded social text matches each page's actual title and meta description. No page copy or production files were changed.
+
+
+## Full-logo favicon consistency — 22 November 2026
+
+- Visually compared the approved original logo in the Library (1536 × 1024 PNG) with the existing website delivery asset at `images/zoraya-logo.webp`; the delivery asset retains the full ZORAYA wordmark and tagline.
+- All twelve HTML pages previously referenced `/favicon.png`, which displays only the standalone Z mark. The preview is being updated to use the same full-logo WebP as the page header and social metadata, avoiding a separate cropped mark.
+- The original PNG and the existing delivery artwork were not edited. The unused legacy favicon files remain in the repository but will no longer be referenced by the HTML pages.
+- Changes are restricted to `website-restoration-preview`; production, DNS, SSL/TLS, security, redirects and public profiles were not changed.
