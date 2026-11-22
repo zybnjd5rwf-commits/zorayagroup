@@ -191,7 +191,7 @@ These live settings require explicit approval before any changes are made. The p
 - All twelve pages reference the full approved ZORAYA logo artwork at `/images/zoraya-logo.webp` in both the header and favicon metadata; the original approved PNG in the Library remains untouched.
 - The separate 64 × 64 Z-only icon is not used in page metadata because it is a cropped mark. The preview retains the full approved wordmark rather than substituting a cropped or recreated variant.
 - The requested `/mnt/data/files/Zoraya-Group-Website-Updated.zip` is not present in this runtime. The Library ZIP inventory contains only the Palace website-image archives, not the requested website archive.
-- Authenticated browser-level visual QA and original Villa/Majlis project media integration remain outstanding.
+- Authenticated browser-level visual QA remains outstanding. The user-supplied Palm Jumeirah Villa exterior is now integrated; completed-site Majlis photography is still outstanding, so the Majlis card continues to use a clearly labelled 3D visualisation reference.
 
 
 ## Project imagery update — 22 November 2026
