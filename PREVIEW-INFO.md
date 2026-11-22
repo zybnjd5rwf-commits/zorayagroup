@@ -192,3 +192,10 @@ These live settings require explicit approval before any changes are made. The p
 - Confirmed the repository's `favicon.png` is a 64 × 64 PNG. Using the dedicated icon avoids shrinking the full wordmark into a browser-tab icon.
 - The requested `/mnt/data/files/Zoraya-Group-Website-Updated.zip` is not present in this runtime. The Library ZIP inventory contains only the Palace website-image archives, not the requested website archive.
 - Authenticated browser-level visual QA and original Villa/Majlis project media integration remain outstanding.
+
+
+## Project imagery update — 22 November 2026
+
+- Added the user-supplied Palm Jumeirah Villa exterior image from the Library as `images/palm-jumeirah-villa-2026.webp` (640 × 429 WebP delivery copy). The original PNG remains unchanged.
+- Updated the Palm Jumeirah Villa project card to show the supplied exterior image and removed the missing-photography placeholder.
+- Applied a shared cover-image treatment to the project-card media so the existing Palm Jumeirah Majlis 3D visualisation fills its frame cleanly; its caption continues to identify it as a visualisation reference, not completed-site photography.
