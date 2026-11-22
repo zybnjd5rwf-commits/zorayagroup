@@ -205,3 +205,6 @@ These live settings require explicit approval before any changes are made. The p
 
 - Reviewed the Palace website-image archive. The interior imagery has the appearance of design visualisations rather than confirmed completed-site photographs.
 - The Luxury Palace project remains attributed as a joint project, but its gallery image is now explicitly labelled as an interior visualisation reference. Completed-site photography is still required before presenting that image as a finished-project photograph.
+
+
+- Updated the homepage hero caption and image alt text to identify the Luxury Palace image as a visualisation reference, consistent with the completed-projects card.
