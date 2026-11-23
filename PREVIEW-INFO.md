@@ -220,3 +220,8 @@ These live settings require explicit approval before any changes are made. The p
 - The six main pages continue to describe ZORAYA's furniture sourcing and supply, custom furniture, manufacturing coordination, quality inspection, export/container coordination, project coordination and installation arrangements. MD Interior Design & Trading is explicitly described as a separate independent business, not owned by or part of ZORAYA.
 - Browser-level visual, mobile-device and live contact-link checks remain unverified. The preview is protected by Cloudflare Access and the active container cannot resolve public site hostnames; no claim of an authenticated browser pass is made. The preview's `noindex,nofollow` and `robots.txt` disallow rule are intentional and must be reviewed before production publication.
 - No production branch, production deployment, DNS, SSL/TLS, security, Access or redirect setting was changed.
+
+
+## Optional post-installation cleaning — 23 November 2026
+
+- Updated the homepage project-delivery sequence to mention that, where requested, ZORAYA can arrange post-installation deep cleaning through an independent local cleaning provider before handover, subject to the written project scope. This aligns the homepage with the existing Services page and does not imply that ZORAYA owns or directly employs a cleaning company.
