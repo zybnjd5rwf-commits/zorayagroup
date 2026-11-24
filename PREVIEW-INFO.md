@@ -225,3 +225,12 @@ These live settings require explicit approval before any changes are made. The p
 ## Optional post-installation cleaning — 23 November 2026
 
 - Updated the homepage project-delivery sequence to mention that, where requested, ZORAYA can arrange post-installation deep cleaning through an independent local cleaning provider before handover, subject to the written project scope. This aligns the homepage with the existing Services page and does not imply that ZORAYA owns or directly employs a cleaning company.
+
+## Client-facing portfolio copy and image handling — 24 November 2026
+
+- Replaced the homepage portfolio teaser's internal restoration-status sentence with client-facing wording about selected project highlights, collaborations and transparent image references.
+- Replaced the Projects page's internal archive-restoration note with a client-facing explanation of project attribution and the distinction between completed-site photography and design visualisation references. Updated the section heading to “Selected projects & collaborations” and refined the search/social description to match.
+- Added lazy loading and asynchronous decoding to the Luxury Palace and Dubai Hills project images. The Dubai Hills caption now describes the supplied video still and visible Blanc watermark without calling the file “recovered”.
+- Located and inspected the separate Library archive ZORAYA_Palace_Website_Images_4.zip (four JPEGs: dining room, living room, master living room and staircase). These are not added to the completed-project gallery because their completed-site versus visualisation status and project attribution are not established by the archive alone.
+- The requested website archive /mnt/data/files/Zoraya-Group-Website-Updated.zip is not present in the current runtime or Library search. The exact approved logo PNG remains available in the Library and untouched; the repository continues to serve its existing 180 × 120 WebP delivery copy pending a way to transfer the original binary without altering it.
+- No production branch, deployment, DNS, SSL/TLS, security, Access or redirect configuration was changed.
