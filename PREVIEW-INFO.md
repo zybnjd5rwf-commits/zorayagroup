@@ -234,3 +234,9 @@ These live settings require explicit approval before any changes are made. The p
 - Located and inspected the separate Library archive ZORAYA_Palace_Website_Images_4.zip (four JPEGs: dining room, living room, master living room and staircase). These are not added to the completed-project gallery because their completed-site versus visualisation status and project attribution are not established by the archive alone.
 - The requested website archive /mnt/data/files/Zoraya-Group-Website-Updated.zip is not present in the current runtime or Library search. The exact approved logo PNG remains available in the Library and untouched; the repository continues to serve its existing 180 × 120 WebP delivery copy pending a way to transfer the original binary without altering it.
 - No production branch, deployment, DNS, SSL/TLS, security, Access or redirect configuration was changed.
+
+## Additional video asset review — 24 November 2026
+
+- Reviewed the available 14.3-second vertical interior walkthrough files `VIDEO-2026-11-19-19-41-04.mp4` and `ZORAYA_GROUP_Luxury_Interiors_Enhanced.mp4`. They show a furnished interior walkthrough but do not identify a project, location, client or ownership in the footage; they are not assigned to any named completed project.
+- Reviewed the available 20-second RAK Majlis videos. Their visible on-screen title identifies them as “RAK | MAJLIS”; they are treated as separate visualisation media and are not attributed to the Palm Jumeirah Majlis or presented as completed-site photography.
+- No video was added to the public-facing portfolio because the project attribution and intended use are not sufficiently established. This avoids implying that an unverified video belongs to one of the four named portfolio projects.
