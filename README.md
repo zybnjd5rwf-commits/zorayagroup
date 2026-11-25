@@ -26,7 +26,7 @@ The review branch is intended for preview only. Do not merge it into production 
 
 Approved tagline: **Your Partner for Complete Furniture Project Solutions.**
 
-ZORAYA Group is the client-facing project solutions and furniture supply coordinator. Independent specialist providers, including MD Interior Design & Trading, remain separate businesses and are engaged only under separately agreed project scopes. MD is not owned by or part of ZORAYA Group.
+ZORAYA Group is a founder-led project solutions and furniture supply coordinator operating from the UAE and serving clients across the UAE and Qatar. The founder personally travels to client meetings and project sites by arrangement. ZORAYA coordinates sourcing and supply through selected manufacturers and suppliers. Independent specialist providers, including MD Interior Design & Trading, remain separate businesses and are engaged only under separately agreed project scopes. MD is not owned by or part of ZORAYA Group.
 
 ## Contact
 
